@@ -8,5 +8,5 @@ def Landing():
     new_image.save('Assets\\Wallpaper.jpg')
     background = CTkImage(light_image = Image.open('Assets\\Wallpaper.jpg'),
                         size=(w, h))   
-    time.sleep(100)
+    win1.mainloop()
 Landing()
