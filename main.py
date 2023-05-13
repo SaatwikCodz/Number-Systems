@@ -46,6 +46,4 @@ def Landing():
     button3 = CTkButton(frame, text = "View Credits",font = ("Times", 75, "bold"),fg_color="transparent",text_color = "#a51212",border_width = 2, border_color = "blue",corner_radius = 12).place(x = framex / 2- 200 - 50 + 50 + 100 + 15 - 45 - 35 - 10 - 16 - 20 - 3, y = framey - 150)
     win1.attributes('-fullscreen',True)
     win1.mainloop()
-    win1.attributes('-fullscreen',True)
-    win1.mainloop()
 Landing()
